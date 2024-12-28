@@ -1,0 +1,28 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "app/_layout.tsx",
+    "backgroundFetchTask/BackgroundFetchTask.jsx",
+    "app/create_receipt/pos_receipt.jsx",
+    "components/ExternalLink.jsx",
+    "components/Collapsible.jsx",
+    "components/HelloWave.jsx",
+    "components/ParallaxScrollView.jsx",
+    "components/ThemedText.jsx",
+    "components/ThemedView.jsx",
+    "components/ThemedButton.jsx",
+    "nativewind-env.d.ts"
+  ]
+}
